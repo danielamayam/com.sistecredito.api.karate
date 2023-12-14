@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'com.intuit.karate:karate-junit5:1.4.0.RC3'
+    testImplementation 'com.intuit.karate:karate-junit5:1.3.0'
 }
 
 test{
