@@ -1,0 +1,22 @@
+[
+  {
+    "id": "#number",
+    "name": "#string",
+    "gender": "#string"
+  },
+  {
+    "id": "#number",
+    "name": "#string",
+    "gender": "#string"
+  },
+  {
+    "id": "#number",
+    "name": "#string",
+    "gender": "#string"
+  },
+  {
+    "id": "#number",
+    "name": "#string",
+    "gender": "#string"
+  }
+]
