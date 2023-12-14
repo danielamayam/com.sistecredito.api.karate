@@ -15,5 +15,4 @@ Feature: LLamando al endpoint Upload
     Given path "upload"
     And multipart file file = { read: 'imagen.png', filename: 'imagen.png', contentType: 'application/octet-stream' }
     When method post
-   # And multipart file file = {read: 'classpath:plantilla_bonos_recargables.csv', filename: 'plantilla_bonos_recargables.csv', contentType: 'text/csv' }
     Then status 201

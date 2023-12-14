@@ -5,7 +5,7 @@ Feature: LLamando a los endpoints de Members
   Para validar estos endpoints
 
   Background:
-    * def jsonResponse = read('./schemas/getMembers.json')
+    * def jsonResponse = read('./getMembers.json')
     * configure charset = null
     Given url "http://localhost:5002/api/"
     And header Authorization = 'Basic YWRtaW46YWRtaW4='
